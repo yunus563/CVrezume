@@ -1,0 +1,87 @@
+extends layout
+
+block content
+
+  div(class="header")
+    div(class="container")
+      div(class="row")
+        div(class="col-lg-4")
+          .img
+            img(src="/images/17241-200.png",)      
+        div(class="col-lg-8")
+          h2 Saydullayev  Yunus <br> <span> Web developer </span>
+
+    div(class="info")
+      div(class="container")
+        div(class="row")
+          div(class="col-lg-4")
+            .left
+              h4 Malumot
+              .box
+                <i class="fas fa-user"></i>
+                p <strong> Name </strong> <br> Saydullayev Yunus 
+              .box
+                <i class="fas fa-map-marker-alt"></i>
+                p <strong> Manzil </strong> <br> Tashkent, UZB 
+              .box
+                <i class="fas fa-phone"></i>
+                p <strong> Tel: </strong> <br>  +998 93 563 21 06
+              .box.po
+                <i class="fas fa-envelope"></i>
+                p <strong> Email </strong> <br> yunussaydullayev@gmail.com
+            .bottom
+              h4 Men haqimda
+              p Hozirda  men  <strong> Frontend </strong> va  <strong> Backend </strong> dasturchiman.
+                | Dasturlashni 1.5 yil davomida o'rganib kelmoqdaman. <br> It sohasiga qiziqishim 15 yoshimdan boshlangan                              
+              h4 Maqsadim
+              p Web Studiyada jamoa bo'lib katta loyihalar yaratish, Senior darajasiga chiqish, Tajriba orttirish
+          div(class="col-lg-8")
+            div(class="skills")
+              <i class="fas fa-pen-alt"></i>
+              p Men biladigan <strong> Texnologiyalar
+            div(class="education")
+              ul
+                li
+                  a(href="") Html, Css, Scss, Es5,6
+                li
+                  a(href="") Bootstrap md5, Semantic, Materialize, Wow.js
+                li
+                  a(href="") Git, Github
+                li
+                  a(href="") <strong> Javascript,</strong> Jquery
+                li
+                  a(href="") <span> React.js, Node.js</span>(Express-generator, Mongo.db, Mongoose)
+                li
+                  a(href="") Socket.io, Bower.js
+                li
+                  a(href="") Unit test, Travesi
+                li
+                  a(href="") Google Cloud 
+            div(class="before")
+              div(class="item1")
+                <i class="fas fa-user-graduate"></i>
+              div(class="item2")
+                p Hozirda <strong> O'rganmoqdaman
+              div(class="after")
+                ul  
+                  li
+                    a(href="") <strong> PHP </strong> (Wordpress, Larevel)
+                  li
+                    a(href="") Gulp
+                  li
+                    a(href="") Sass, Less
+              div(class="contact_me")
+                .box1
+                  <i class="far fa-comments"></i>
+                .box2
+                  p Izoh <strong> qoldirish </strong>
+              div(class="contact")    
+                form(method="POST", action="/coment")
+                  .form-outline.mb-4
+                    input#form4Example1.form-control(type='text' name="name")
+                    label.form-label(for='form4Example1') Name
+                  .form-outline.mb-4
+                    input#form4Example11.form-control(type='text' name="coment")
+                    label.form-label(for='form4Example11') Izoh
+                  button.btn.btn-primary.btn-block.mb-4(type='submit')
+                    | Jo'natish

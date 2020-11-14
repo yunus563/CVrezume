@@ -1,0 +1,275 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('../images/material_style_shapes_colorful-120490.jpg') center center;
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  margin: 25px auto 0;
+  border: 0.5px solid black;
+  width: 90%;
+
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(128, 128, 128, 0.753);
+  background: #eef1f6;
+  padding-right: 10px;
+}
+
+
+.header .col-lg-4 img {
+  width: 150px;
+  height: 150px;
+}
+
+.header .img {
+  background: #e3d6ce;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header .col-lg-8 {
+  /* border: 1px solid red; */
+  height: 182px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2def;
+}
+
+
+
+.header h2 {
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.header span {
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.info .myinfo {
+  background: #e3d6ce;
+  width: 100%;
+  margin-top: -2px;
+}
+
+.info .col-lg-8 {
+  background: rgb(231, 231, 231);
+  display: block;
+  height: auto;
+}
+
+.info .left h4 {
+  border-bottom: 3px solid #000;
+  padding-bottom: 15px;
+  border-width: 100%;
+  display: block;
+  font-size: 35px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 700;
+  margin-left: 10px;
+  padding-top: 25px;
+}
+
+.info .left {
+  width: 100%;
+  background: #e3d6ce;
+  margin-top: -2px;
+  height: auto;
+}
+
+.info .box {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 10px;
+}
+
+.info .box .fas {
+  font-size: 20px;
+  margin: 23px 15px;
+}
+
+.info .box p {
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Markazi Text', serif;
+}
+
+.info .box.po p {
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Markazi Text', serif;
+}
+
+.info .bottom p {
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Markazi Text', serif;
+  padding-left: 20px;
+}
+
+.info .bottom {
+  width: 100%;
+  background: #e3d6ce;
+  margin-top: -15px;
+  height: 493px;
+
+}
+
+.info .bottom h4 {
+  border-bottom: 3px solid #000;
+  padding-bottom: 15px;
+  border-width: 100%;
+  display: block;
+  font-size: 35px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 700;
+  margin-left: 10px;
+  padding-top: 25px;
+}
+
+.info .skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid rgba(216, 116, 23, 0.925);
+  margin-top: 80px;
+}
+
+.info .skills p {
+  margin: 0;
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+}
+
+.info .skills .fas {
+  font-size: 30px;
+  margin-left: 27px;
+}
+
+.info .about {
+  width: 100%;
+  background: rgb(231, 231, 231);
+}
+
+.info .education {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.info .education ul li {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.info .education ul li a {
+  color: black;
+  font-weight: 100;
+  font-family: 'Markazi Text', serif;
+  font-size: 22px;
+  margin: 0;
+  line-height: 4.5px;
+}
+
+.info .education ul li a span {
+  color: black;
+  font-weight: 600;
+  font-family: 'Markazi Text', serif;
+  font-size: 25px;
+}
+
+.info .before {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info .before .item1 {
+  border-left: 4px solid rgba(216, 116, 23, 0.925);
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.info .before .fas {
+  font-size: 33px;
+  margin-left: 27px;
+}
+
+.info .before .item2 p {
+  margin: 0;
+  font-weight: 100;
+  font-size: 25px;
+  font-family: 'Courgette', cursive;
+}
+
+.info .before .after ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info .before .after {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.info .before .after ul li a {
+  color: black;
+  font-weight: 100;
+  font-family: 'Markazi Text', serif;
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.info .contact {
+  width: 100%;
+  padding: 0 10px;
+}
+
+
+.info .before .contact_me {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.info .before .contact_me .box1 {
+  border-left: 4px solid rgba(216, 116, 23, 0.925);
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.info .before .contact_me .box1 .far {
+  font-size: 30px;
+  margin-left: 27px;
+
+}
+.info .before .contact_me .box2 p{
+  margin: 0;
+  font-weight: 100;
+  font-size: 25px;
+  font-family: 'Courgette', cursive;
+}
